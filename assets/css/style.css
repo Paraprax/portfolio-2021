@@ -5,3 +5,10 @@ body {
 #header a:hover {
   color: white;
 }
+
+#bg-img {
+  background: url("../images/romaintrystram.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 1500px;
+}
