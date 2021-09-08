@@ -16,3 +16,7 @@ body {
 #about {
   margin-top: -200px;
 }
+
+#about span {
+  padding: 10px 20px 10px 20px;
+}
