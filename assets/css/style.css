@@ -12,3 +12,7 @@ body {
   background-repeat: no-repeat;
   min-height: 500px;
 }
+
+#about {
+  margin-top: -200px;
+}
