@@ -13,10 +13,19 @@ body {
   min-height: 500px;
 }
 
+.fa {
+  color: white;
+}
+
 #about {
   margin-top: -200px;
 }
 
 #about span {
   padding: 10px 20px 10px 20px;
+}
+
+#about hr {
+  border-width: 3px;
+  margin-top: 06px;
 }
