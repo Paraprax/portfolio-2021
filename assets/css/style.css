@@ -47,3 +47,7 @@ body {
   border-width: 3px;
   margin-top: 06px;
 }
+
+#projects .card {
+  border-top: 3px solid indigo;
+}
