@@ -1,62 +1,130 @@
 body {
-  background: #ccc;
+  background: rgb(40, 40, 40);
+  background-image: url("../images/MERN-stack-wallpaper.png");
+}
+
+#navbar {
+  background-color: rgb(29, 29, 29);
+  opacity: 0.95;
 }
 
 #header a:hover {
-  color: white;
+  color: rgb(29, 181, 90);
+}
+
+#web-dev {
+  letter-spacing: 5px;
+  font-size: smaller;
 }
 
 #bg-img {
-  background: url("../images/romaintrystram.jpg");
+  background: url("../images/romaintrystram-jungle-islands.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 500px;
 }
 
-.fa {
-  color: white;
+td {
+  color: rgb(29, 181, 90);
+}
+
+.card {
+  color: honeydew;
+  background-color: rgb(19, 29, 29);
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  opacity: 0.95;
+}
+
+.card-footer {
+  background-color: rgb(139, 28, 237);
+  opacity: 0.5;
 }
 
 #about {
   margin-top: -200px;
 }
 
+#about .fa {
+  color: rgb(15, 240, 105);
+}
+
+#about .fa a:hover {
+  color: rgb(0, 255, 102);
+}
+
 #about span {
+  /* top,left,bottom,right */
   padding: 10px 20px 10px 20px;
 }
 
-#about hr {
-  border-width: 3px;
-  margin-top: 06px;
-}
-
-#skillset span {
+#about p {
   padding: 10px 20px 10px 20px;
 }
 
-#skillset hr {
-  border-width: 3px;
-  margin-top: 06px;
+#about .bio {
+  background-color: rgb(19, 29, 29);
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-top-color: #d03e54; /* matched bootstrap danger red*/
+  border-radius: 10px;
+  color: honeydew;
+  margin-top: 5px;
+}
+
+#gitlink {
+  color: rgb(139, 28, 237);
+}
+
+#skills span {
+  /* top,left,bottom,right */
+  padding: 10px 20px 10px 20px;
+}
+
+#skills hr {
+  border-width: 2px;
+  margin-top: 6px;
 }
 
 #projects span {
+  /* top,left,bottom,right */
   padding: 10px 20px 10px 20px;
 }
 
 #projects hr {
-  border-width: 3px;
-  margin-top: 06px;
+  border-width: 2px;
+  margin-top: 6px;
 }
 
 #projects .card {
-  border-top: 3px solid indigo;
+  background-color: rgb(19, 29, 29);
+  border-top: 3px solid rgb(150, 48, 218);
 }
 
 #contact span {
+  /* top,left,bottom,right */
   padding: 10px 20px 10px 20px;
+  background-color: rgb(255, 111, 0);
 }
 
-#contact hr {
-  border-width: 3px;
-  margin-top: 06px;
+#forms {
+  padding: 20px 20px 10px 20px;
+  background-color: rgb(19, 29, 29);
+  border-style: groove;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  border-top-color: rgb(255, 111, 0);
+  color: honeydew;
+  margin-top: 5px;
+}
+
+.form-control {
+  background-color: rgb(119, 130, 130);
+  border-color: rgb(0, 0, 0);
+}
+
+#submit-button {
+  background-color: rgb(255, 111, 0);
 }

@@ -13,7 +13,7 @@
     />
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!-- jQuery -->
+    <!-- js libraries -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -29,135 +29,139 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <!-- local stylesheet -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Parker Johnston</title>
+    <!-- my vanilla css sheet (call last!): -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- title -->
+    <title>Parker 2020</title>
   </head>
   <body data-spy="scroll" data-target=".navbar">
-    <!-- nav -->
+    <!-- highlight navbar items when targetted elements are scrolled over -->
+
+    <!-- navbar -->
     <div id="header">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <nav id="navbar" class="navbar navbar-expand-sm navbar-dark fixed-top">
         <div class="container">
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
-            <span class="navbar-toggler-icon"> </span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-
           <a href="#" class="navbar-brand"><h3>Parker Johnston</h3></a>
+          <!-- navbar links -->
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a href="#skillset" class="nav-link">Skill Set</a>
-              </li>
-              <li class="nav-item">
-                <a href="#projects" class="nav-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-              </li>
+              <!-- margin-left auto to align right -->
+              <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
           </div>
+          <!-- end of links -->
         </div>
       </nav>
     </div>
 
-    <!-- showcase -->
+    <!-- banner -->
     <div id="bg-img"></div>
-    <!-- about -->
+
+    <!-- about me section -->
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="col">
             <div id="about-data">
-              <div class="card bg-white">
+              <div class="card">
                 <div class="card-title my-5">
                   <div class="media">
+                    <!-- profile pic -->
                     <img
-                      src="./assets/images/autumn2020newglasses-crop.jpg"
+                      src="assets/images/grocery-chic-crop.jpg"
                       width="250"
                       height="250"
-                      class="img-fluid rounded-top mx-5 d-none d-lg-block"
-                      alt="photo of me"
+                      class="img-fluid rounded mx-5 d-none d-lg-block"
+                      alt="Parker Johnston profile pic"
                     />
+                    <!-- name and title -->
                     <div class="media-body">
                       <h3 class="display-4 ml-3">Parker Johnston</h3>
-                      <p class="text-muted ml-3">Full-Stack Web Developer</p>
-                      <!-- info table -->
+                      <!-- <p class="text-muted ml-auto" id="web-dev">Full-Stack Web Developer</p> -->
+                      <p class="text-muted ml-auto" id="web-dev">FULL-STACK WEB DEVELOPER</p>
                       <div class="container">
-                        <table class="table table-responsive ml-4">
+                        <table class="table table-responsive ml-auto">
                           <tr>
-                            <td class="text-muted">Age</td>
+                            <td>Age</td>
                             <td>:</td>
-                            <td class="text-muted">32</td>
+                            <td>30</td>
                           </tr>
                           <tr>
-                            <td class="text-muted">Education</td>
+                            <td>Email</td>
                             <td>:</td>
-                            <td class="text-muted">University Of Toronto: School Of Continuing Studies</td>
+                            <td>parkerjohnston28@gmail.com</td>
                           </tr>
                           <tr>
-                            <td class="text-muted">Email</td>
+                            <td>Website</td>
                             <td>:</td>
-                            <td class="text-muted">parkerjohnston28@gmail.com</td>
+                            <td><a href="http://www.github.com/paraprax" target="0" id="gitlink">www.github.com/paraprax</a></td>
                           </tr>
                         </table>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="card-footer bg-danger">
-                  <a href="#" class="fa fa-linkedin fa-2x mx-5"></a>
-                  <a href="https://github.com/Paraprax" class="fa fa-github fa-2x mx-5"></a>
-                  <a href="#" class="fa fa-podcast fa-2x mx-5"></a>
+                <div class="card-footer">
+                  <a href="https://www.github.com/paraprax" target="0"><i class="fa fa-github fa-2x mx-3"></i></a>
+                  <a href="https://www.linkedin.com/in/parker-johnston-a807077a/" target="0"><i class="fa fa-linkedin fa-2x mx-3"></i></a>
+                  <a href="https://www.twitter.com/ParkerJohnston" target="0"><i class="fa fa-twitter fa-2x mx-3"></i></a>
+                  <a href="https://www.instagram.com/paraprax_" target="0"><i class="fa fa-instagram fa-2x mx-3"></i></a>
+                  <a href="https://dicktracyminute.podbean.com/" target="0"><i class="fa fa-microphone fa-2x mx-3"></i></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="container mt-5">
         <div class="row">
           <div class="col">
-            <span class="bg-danger text-white">About Me</span>
-            <hr class="bg-danger" />
-            <p class="lead text-justify">
-              Tired of Seattlites’ endless, ungrateful complaints about their families during the holiday season, Frasier begins jotting down a “naughty” list
-              of particularly odious callers, co-workers and vaguely grouchy-looking passersby for whom a very personal Christmas Eve “house call” may be in the
-              books. Martin laments the luxury condo lifestyle after becoming nostalgically fixated on the idea of tarring and re-shingling a roof. Roz tries to
-              cheer up a recently-divorced
+            <span class="bg-danger text-white rounded-top">About Me</span>
+            <p class="bio lead text-justify rounded">
+              A blood black nothingness began to spin. Began to spin. Let's move on to system. System. Feel that in your body. The system. What does it feel
+              like to be part of the system. System. Is there anything in your body that wants to resist the system? System. Do you get pleasure out of being a
+              part of the system? System. Have they created you to be a part of the system? System. Is there security in being a part of the system? System. Is
+              there a sound that comes with the system? System. We're going to go on. Cells. They were all put together at a time. Cells. Millions and billions
+              of them. Cells. Were you ever arrested? Cells. Did you spend much time in the cell? Cells. Have you ever been in an instituion? Cells. Do they
+              keep you in a cell? Cells. When you're not performing your duties do they keep you in a little box? Cells. Interlinked.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Skills -->
-    <div id="skillset" class="mt-5">
+    <!-- skills section -->
+    <div id="skills" class="mt-4">
       <div class="container">
-        <span class="bg-primary text-white">My Skill Set</span>
+        <span class="bg-primary text-white rounded-top">My Skills</span>
         <hr class="bg-primary" />
         <div class="row">
           <div class="col">
-            <div class="card bg-white">
-              <h3 class="ml-3 my-3">JavaScript</h3>
+            <div class="card skills py-3">
+              <h3 class="ml-3">MongoDB</h3>
               <div class="progress mx-3">
-                <div class="progress progress-bar" style="width: 95%">95%</div>
+                <div class="progress-bar bg-dark" style="width: 2%">2%</div>
               </div>
-              <h3 class="ml-3 my-3">Node.js</h3>
+
+              <h3 class="ml-3 my-3">Express</h3>
               <div class="progress mx-3">
-                <div class="progress progress-bar" style="width: 95%">95%</div>
+                <div class="progress-bar bg-dark" style="width: 2%">2%</div>
               </div>
-              <h3 class="ml-3 my-3">Express.js</h3>
+
+              <h3 class="ml-3 my-3">React</h3>
               <div class="progress mx-3">
-                <div class="progress progress-bar" style="width: 95%">95%</div>
+                <div class="progress-bar bg-dark" style="width: 2%">2%</div>
               </div>
-              <h3 class="ml-3 my-3">Bootstrap</h3>
+
+              <h3 class="ml-3 my-3">NodeJS</h3>
               <div class="progress mx-3">
-                <div class="progress progress-bar" style="width: 95%">95%</div>
+                <div class="progress-bar bg-dark" style="width: 2%">2%</div>
               </div>
             </div>
           </div>
@@ -165,70 +169,53 @@
       </div>
     </div>
 
-    <!-- projects -->
-    <div>
-      <div id="projects">
-        <div class="container mt-5">
-          <span class="bg-success text-white">Projects</span>
-          <hr class="bg-success" />
-          <div class="row">
-            <div class="col-lg-6 mt-3">
-              <div class="card bg-white px-2">
-                <img src="./assets/images/xenophile.jpg" width="200" height="80" alt="xenophile-thumbnail" class="img-fluid mt-5 m-auto py-3" />
-                <h3 class="text-center text-primary">Xenophile - Alien Friend-Finder</h3>
-                <p class="lead text-justify p-3">Full-stack project stuff</p>
-              </div>
-            </div>
-            <div class="col-lg-6 mt-3">
-              <div class="card bg-white">
-                <img src="./assets/images/xenophile.jpg" width="200" height="80" alt="xenophile-thumbnail" class="img-fluid mt-5 m-auto py-3" />
-                <h3 class="text-center text-primary">Xenophile - Alien Friend-Finder</h3>
-                <p class="lead text-justify p-3">Full-stack project stuff</p>
-              </div>
+    <!-- projects section -->
+    <div id="projects" class="mt-5">
+      <div class="container">
+        <span class="bg-success text-white rounded-top">Projects</span>
+        <hr class="bg-success" />
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="assets/images/parker-profile-pic.png" width="200" height="80" class="img-fluid m-auto py-3" alt="exp-1" />
+              <h3 class="m-auto">Project 1</h3>
+              <p class="lead text-justify p-3">Project description blurb text lorem ipsum ipso facto harpo chico groucho zeppo gummo etc</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-6 mt-3">
-              <div class="card bg-white">
-                <img src="./assets/images/xenophile.jpg" width="200" height="80" alt="xenophile-thumbnail" class="img-fluid mt-5 m-auto py-3" />
-                <h3 class="text-center text-primary">Xenophile - Alien Friend-Finder</h3>
-                <p class="lead text-justify p-3">Full-stack project stuff</p>
-              </div>
-            </div>
-            <div class="col-lg-6 mt-3">
-              <div class="card bg-white">
-                <img src="./assets/images/xenophile.jpg" width="200" height="80" alt="xenophile-thumbnail" class="img-fluid mt-5 m-auto py-3" />
-                <h3 class="text-center text-primary">Xenophile - Alien Friend-Finder</h3>
-                <p class="lead text-justify p-3">Full-stack project stuff</p>
-              </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="assets/images/parker-profile-pic.png" width="200" height="80" class="img-fluid m-auto py-3" alt="exp-1" />
+              <h3 class="m-auto">Project 2</h3>
+              <p class="lead text-justify p-3">Project description blurb text lorem ipsum ipso facto harpo chico groucho zeppo gummo etc</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- contact -->
-    <div id="contact">
-      <div class="container mt-5">
-        <span class="bg-warning text-white">Contact</span>
-        <hr class="bg-warning" />
+    <!-- contact section -->
+    <div id="contact" class="mt-5">
+      <div class="container">
         <div class="row">
           <div class="col">
-            <div class="card bg-white">
-              <div class="card-header">
-                <h4 class="my-4">Contact Parker</h4>
-                <div class="form-group">
-                  <input type="text" placeholder="username" class="form-control" />
-                </div>
-                <div class="form-group">
-                  <input type="text" placeholder="email" class="form-control" />
-                </div>
-                <div class="form-group">
-                  <textarea type="text" placeholder="message" class="form-control"></textarea>
-                </div>
-                <div class="form-group">
-                  <button class="btn btn-success text-white">Submit</button>
-                </div>
+            <span class="text-white rounded-top">Contact Me</span>
+
+            <div id="forms" class="card-header">
+              <!-- <h4 class="my-4"> Contact Submission Etc</h4> -->
+              <div class="form-group">
+                <input type="text" placeholder=" Name " class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder=" Email " class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Message...."></textarea>
+              </div>
+
+              <div class="form-group">
+                <button id="submit-button" class="btn text-white">Send</button>
               </div>
             </div>
           </div>
@@ -237,12 +224,17 @@
     </div>
 
     <!-- footer -->
-    <div class="container bg-dark">
+    <div class="container-fluid bg-dark">
       <div class="row">
         <div class="col">
-          <p>© Parker Johnston 2021</p>
+          <div class="container">
+            <div class="text-white p-3 text-center">© Parker Johnston 2020</div>
+            <div class="text-muted pb-3 text-center">banner art by Romain Trystram</div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- end of content -->
   </body>
 </html>
