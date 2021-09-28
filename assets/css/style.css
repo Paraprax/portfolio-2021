@@ -5,7 +5,6 @@ body {
 
 #navbar {
   background-color: rgb(52, 58, 64);
-  opacity: 0.95;
 }
 
 #header a:hover {
@@ -18,7 +17,7 @@ body {
 }
 
 #bg-img {
-  background: url("../images/romaintrystram-jungle-islands.jpg");
+  background: url("../images/romaintrystram.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 500px;
