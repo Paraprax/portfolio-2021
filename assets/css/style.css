@@ -33,6 +33,7 @@ td {
   border-style: groove;
   border-width: 2px;
   border-color: rgb(0, 0, 0);
+  position: relative;
 }
 
 .card-footer {
