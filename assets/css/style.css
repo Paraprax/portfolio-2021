@@ -29,11 +29,10 @@ td {
 
 .card {
   color: honeydew;
-  background-color: rgb(19, 29, 29);
+  background-color: rgb(19, 29, 29, 0.9);
   border-style: groove;
   border-width: 2px;
   border-color: rgb(0, 0, 0);
-  opacity: 0.95;
 }
 
 .card-footer {
