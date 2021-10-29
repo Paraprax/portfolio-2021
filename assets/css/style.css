@@ -49,8 +49,8 @@ td {
   color: rgb(15, 240, 105);
 }
 
-#about .fa a:hover {
-  color: rgb(0, 255, 102);
+#about .fa:hover {
+  color: rgb(133, 255, 174, 1);
 }
 
 #about span {
