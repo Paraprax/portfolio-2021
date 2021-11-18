@@ -1,6 +1,6 @@
 body {
   background: rgb(40, 40, 40);
-  background-image: url("../images/MERN-stack-wallpaper.png");
+  background-image: url("../images/hexa-wall-8.jpg");
 }
 
 #navbar {
@@ -42,7 +42,7 @@ td {
 }
 
 #about {
-  margin-top: -200px;
+  margin-top: -300px;
 }
 
 #about .fa {
