@@ -37,8 +37,8 @@ td {
 }
 
 .card-footer {
-  background-color: rgb(139, 28, 237);
-  opacity: 0.5;
+  background-color: #3d1768;
+  /* opacity: 0.5; */
 }
 
 #about {
@@ -46,11 +46,11 @@ td {
 }
 
 #about .fa {
-  color: rgb(15, 240, 105);
+  color: #0f8d42;
 }
 
 #about .fa:hover {
-  color: rgb(133, 255, 174, 1);
+  color: rgb(9, 161, 83);
 }
 
 #about span {
@@ -126,4 +126,10 @@ td {
 
 #submit-button {
   background-color: rgb(255, 111, 0);
+}
+
+.web-dev {
+  font-size: 8pt;
+  letter-spacing: 9pt;
+  text-align: center;
 }
