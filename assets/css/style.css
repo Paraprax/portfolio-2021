@@ -82,9 +82,15 @@ td {
   padding: 10px 20px 10px 20px;
 }
 
-#skills hr {
+.skills {
+  background-color: rgb(19, 29, 29);
+  border-style: solid;
   border-width: 2px;
-  margin-top: 6px;
+  border-color: rgb(0, 0, 0);
+  border-top-color: #0275d8; /* matched bootstrap primary blue*/
+  border-radius: 5px;
+  color: honeydew;
+  margin-top: 5px;
 }
 
 #projects span {
