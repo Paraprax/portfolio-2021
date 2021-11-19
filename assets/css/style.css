@@ -123,6 +123,10 @@ td {
   background-color: rgb(255, 111, 0);
 }
 
+#contact {
+  margin-bottom: 38px;
+}
+
 #forms {
   padding: 20px 20px 10px 20px;
   background-color: rgb(19, 29, 29);
