@@ -143,6 +143,10 @@ td {
   border-color: rgb(0, 0, 0);
 }
 
+#copyright {
+  color: #0f8d42;
+}
+
 #submit-button {
   background-color: rgb(255, 111, 0);
 }
