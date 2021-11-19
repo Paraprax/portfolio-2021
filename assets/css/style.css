@@ -7,6 +7,10 @@ body {
   background-color: rgb(52, 58, 64);
 }
 
+.a-font {
+  font-family: "Montserrat", "Courier New", Courier, monospace;
+}
+
 #header a:hover {
   color: rgb(29, 181, 90);
 }
