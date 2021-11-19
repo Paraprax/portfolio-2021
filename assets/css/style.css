@@ -11,6 +11,15 @@ body {
   background-color: rgb(52, 58, 64, 0);
 }
 
+h2 {
+  font-weight: 300;
+  letter-spacing: 2pt;
+}
+
+h3 {
+  letter-spacing: 4pt;
+}
+
 .navbar {
   background-color: rgb(52, 58, 64, 0.95);
   border-bottom: rgb(27, 27, 27, 0.4);
@@ -19,7 +28,7 @@ body {
 }
 
 .a-font {
-  font-family: "Montserrat", "Courier New", Courier, monospace;
+  font-family: "Helvetica Neue", sans-serif, "Courier New", Courier, monospace;
 }
 
 #header a:hover {
