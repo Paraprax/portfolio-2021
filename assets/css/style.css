@@ -16,6 +16,10 @@ body {
   font-size: smaller;
 }
 
+.bg-success {
+  margin-bottom: 0.5px;
+}
+
 #bg-img {
   background: url("../images/romaintrystram.jpg");
   background-size: 100%;
