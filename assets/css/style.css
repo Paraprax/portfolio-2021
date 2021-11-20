@@ -32,11 +32,11 @@ h3 {
 }
 
 #header a:hover {
-  color: rgb(13, 179, 93);
+  color: rgb(21, 194, 90);
 }
 
-.navbar-nav:active {
-  color: rgb(29, 181, 90);
+.navbar-dark .navbar-nav .nav-link.active {
+  color: rgb(13, 179, 93);
 }
 
 #web-dev {
@@ -91,7 +91,7 @@ td {
 }
 
 #about .fa:hover {
-  color: rgb(13, 179, 93);
+  color: rgb(21, 194, 90);
 }
 
 #about span {
