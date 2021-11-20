@@ -58,6 +58,10 @@ h3 {
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 500px;
+  background-color: rgb(52, 58, 64, 0.95);
+  border-bottom: rgb(27, 27, 27, 0.8);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
 }
 
 td {
@@ -79,7 +83,7 @@ td {
 }
 
 #about {
-  margin-top: -380px;
+  margin-top: -375px;
 }
 
 #about .fa {
