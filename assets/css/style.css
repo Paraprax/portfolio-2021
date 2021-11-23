@@ -176,8 +176,7 @@ td {
 }
 
 .project-thumbnail {
-  border-style: groove;
-  border-radius: 10%;
+  border-radius: 2%;
 }
 
 #copyright {
@@ -186,6 +185,19 @@ td {
 
 #submit-button {
   background-color: rgb(255, 111, 0);
+}
+
+a:hover {
+  color: rgb(21, 194, 90);
+  text-decoration: none;
+}
+
+.external-link {
+  color: aliceblue;
+}
+
+.external-link :hover {
+  color: #0f8d42;
 }
 
 .web-dev {
