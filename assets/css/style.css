@@ -183,6 +183,10 @@ td {
   color: #0f8d42;
 }
 
+.skill-thumbnail {
+  width: 200px;
+}
+
 #submit-button {
   background-color: rgb(255, 111, 0);
 }
