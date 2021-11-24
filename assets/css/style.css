@@ -185,12 +185,13 @@ td {
 }
 
 .skill-thumbnail {
-  border-style: groove;
-  border-color: #0b6630;
-  border-radius: 2px;
   border-radius: 2%;
   width: 200px;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(121, 204, 162, 0.2);
+}
+
+.skill-thumbnail:hover {
+  background-color: rgba(121, 204, 162, 0.6);
 }
 
 #submit-button {
