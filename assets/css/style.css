@@ -185,6 +185,11 @@ td {
 
 .skill-thumbnail {
   width: 200px;
+  margin: auto;
+}
+
+.skills-card {
+  align-content: center;
 }
 
 #submit-button {
