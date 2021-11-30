@@ -185,9 +185,10 @@ td {
 }
 
 .skill-thumbnail {
+  display: block;
   align-content: center;
   border-radius: 2%;
-  width: 200px;
+  width: 250px;
   background-color: rgba(206, 206, 206, 0.2);
 }
 
@@ -196,7 +197,7 @@ td {
 }
 
 .icon-caption {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", sans-serif, "Courier New", Courier, monospace;
 }
 
 #submit-button {
