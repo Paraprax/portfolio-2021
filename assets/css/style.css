@@ -201,7 +201,16 @@ td {
   background-color: rgba(121, 204, 162, 0.6);
 }
 
+.skill-thumbnail #html-icon {
+  content: url("../images/skill-icons/html5-icon-white.png");
+}
+
+.skill-thumbnail:hover #html-icon {
+  content: url("../images/skill-icons/html5-icon.png");
+}
+
 .icon-caption {
+  color: aliceblue;
   font-family: "Helvetica Neue", sans-serif, "Courier New", Courier, monospace;
   font-size: 19pt;
   padding-bottom: 15px;
