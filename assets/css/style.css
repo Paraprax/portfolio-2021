@@ -201,12 +201,20 @@ td {
   background-color: rgba(121, 204, 162, 0.6);
 }
 
+/* HTML icon hover-swap */
 .skill-thumbnail #html-icon {
   content: url("../images/skill-icons/html5-icon-white.png");
 }
-
 .skill-thumbnail:hover #html-icon {
   content: url("../images/skill-icons/html5-icon.png");
+}
+
+/* JS icon hover-swap */
+.skill-thumbnail #javascript-icon {
+  content: url("../images/skill-icons/js-icon-white.png");
+}
+.skill-thumbnail:hover #javascript-icon {
+  content: url("../images/skill-icons/js-icon.png");
 }
 
 .icon-caption {
