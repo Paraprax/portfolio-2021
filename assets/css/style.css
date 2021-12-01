@@ -217,6 +217,38 @@ td {
   content: url("../images/skill-icons/js-icon.png");
 }
 
+/* react icon hover-swap */
+.skill-thumbnail #react-icon {
+  content: url("../images/skill-icons/reactJS-icon-white.png");
+}
+.skill-thumbnail:hover #react-icon {
+  content: url("../images/skill-icons/reactJS-icon.png");
+}
+
+/* nodeJS icon hover-swap */
+.skill-thumbnail #node-icon {
+  content: url("../images/skill-icons/nodeJS-icon-white.png");
+}
+.skill-thumbnail:hover #node-icon {
+  content: url("../images/skill-icons/nodeJS-icon.png");
+}
+
+/* nodeJS icon hover-swap */
+.skill-thumbnail #express-icon {
+  content: url("../images/skill-icons/expressJS-icon-white.png");
+}
+.skill-thumbnail:hover #express-icon {
+  content: url("../images/skill-icons/expressJS-icon.png");
+}
+
+/* jQuery icon hover-swap */
+.skill-thumbnail #jquery-icon {
+  content: url("../images/skill-icons/jquery-icon-white.png");
+}
+.skill-thumbnail:hover #jquery-icon {
+  content: url("../images/skill-icons/jquery-icon.png");
+}
+
 .icon-caption {
   color: aliceblue;
   font-family: "Helvetica Neue", sans-serif, "Courier New", Courier, monospace;
