@@ -202,6 +202,10 @@ td {
   background-color: rgba(121, 204, 162, 0.6);
 }
 
+.skill-thumbnail:hover .icon-caption {
+  color: rgb(39, 39, 39);
+}
+
 /* HTML icon hover-swap */
 .skill-thumbnail #html-icon {
   content: url("../images/skill-icons/html5-icon-white.png");
