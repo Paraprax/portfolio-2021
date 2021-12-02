@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("../fonts/helveticaneue.ttf");
+  font-family: "Helvetica Neue Thin";
+  src: url("../fonts/helvetica-neue-thin.otf");
 }
 
 html {
@@ -33,7 +33,7 @@ h3 {
 }
 
 .a-font {
-  font-family: "Helvetica Neue", sans-serif, "Courier New", Courier, monospace;
+  font-family: "Helvetica Neue Thin", sans-serif, "Courier New", Courier, monospace;
 }
 
 #header a:hover {
@@ -261,7 +261,7 @@ td {
 
 .icon-caption {
   color: aliceblue;
-  font-family: "Helvetica Neue", sans-serif, "Courier New", Courier, monospace;
+  font-family: "Helvetica Neue Thin", sans-serif, "Courier New", Courier, monospace;
   font-size: 19pt;
   padding-bottom: 15px;
 }
