@@ -82,28 +82,28 @@ td {
   /* opacity: 0.5; */
 }
 
-#about {
+#about-me {
   margin-top: -375px;
 }
 
-#about .fa {
+#about-me .fa {
   color: #0f8d42;
 }
 
-#about .fa:hover {
+#about-me .fa:hover {
   color: rgb(21, 194, 90);
 }
 
-#about span {
+#about-me span {
   /* top,left,bottom,right */
   padding: 10px 20px 10px 20px;
 }
 
-#about p {
+#about-me p {
   padding: 10px 20px 10px 20px;
 }
 
-#about .bio {
+#about-me .bio {
   background-color: rgb(19, 29, 29);
   border-style: groove;
   border-width: 2px;
