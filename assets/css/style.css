@@ -147,6 +147,10 @@ td {
   border-top: 3px solid rgb(150, 48, 218);
 }
 
+#projects .card:hover {
+  background-color: rgba(121, 204, 162, 0.4);
+}
+
 #contact span {
   /* top,left,bottom,right */
   padding: 10px 20px 10px 20px;
