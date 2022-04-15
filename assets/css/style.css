@@ -293,6 +293,10 @@ td {
   background-color: rgb(255, 111, 0);
 }
 
+.contact-pitch {
+  font-size: 19pt;
+}
+
 a:hover {
   color: rgb(21, 194, 90);
   text-decoration: none;
