@@ -216,6 +216,16 @@ td {
   padding-bottom: 15px;
 }
 
+.plug {
+  border-radius: 0 !important;
+  border-color: rgb(19, 29, 29);
+  background-color: rgb(19, 29, 29);
+}
+
+.plug:hover {
+  background-color: rgb(19, 29, 29) !important;
+}
+
 .skill-thumbnail:hover {
   background-color: rgba(121, 204, 162, 0.6);
 }
