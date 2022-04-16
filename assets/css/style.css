@@ -162,6 +162,13 @@ td {
   margin-top: 1rem !important;
 }
 
+.contact-pitch {
+  font-size: 19pt;
+  font-weight: 300;
+  /* font-family: "Helvetica Neue Thin", sans-serif, "Courier New", Courier, monospace; */
+  color: rgb(218, 232, 218);
+}
+
 #forms {
   padding: 20px 20px 10px 20px;
   background-color: rgb(19, 29, 29);
@@ -169,7 +176,7 @@ td {
   border-width: 2px;
   border-color: rgb(0, 0, 0);
   border-top-color: rgb(255, 111, 0);
-  color: honeydew;
+  color: rgb(235, 244, 235);
   margin-top: 5px;
 }
 
@@ -292,10 +299,6 @@ td {
 
 #submit-button {
   background-color: rgb(255, 111, 0);
-}
-
-.contact-pitch {
-  font-size: 19pt;
 }
 
 a:hover {
