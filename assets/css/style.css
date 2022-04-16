@@ -151,7 +151,7 @@ td {
   /* background-color: rgba(79, 135, 109, 0.8); */
 }
 
-#contact span {
+#contact-tab {
   /* top,left,bottom,right */
   padding: 10px 20px 10px 20px;
   background-color: rgb(255, 111, 0);
@@ -308,6 +308,10 @@ a:hover {
 
 .external-link :hover {
   color: #0f8d42;
+}
+
+.gmail-address {
+  color: rgb(21, 194, 90);
 }
 
 .web-dev {
