@@ -243,7 +243,7 @@
         <div class="row">
           <div class="col">
             <span id="contact-tab" class="text-white rounded-top">Contact Me</span>
-            <form onsubmit="sendEmail()">
+            <form onsubmit="sendEmail(); reset(); return false;">
             <div id="forms" class="card-header">
               <!-- <p class="contact-pitch"><em>If you're an employer looking to hire, please get in touch with me via <a href="https://www.linkedin.com/in/parker-johnston-a807077a/">my LinkedIn profile.</a></em></p> -->
               <div class="form-group">
@@ -259,7 +259,7 @@
               </div>
 
               <div class="form-group">
-                <button type="submit" ="submit-button" class="btn text-white">Send</button>
+                <button type="submit" class="btn text-white">Send</button>
               </div>
             </form>
             </div>
@@ -281,19 +281,6 @@
     </div>
     <!-- end of content -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      const sendEmail = () => {
-        Email.send({
-          Host : "smtp.yourisp.com",
-          Username : "username",
-          Password : "password",
-          To : 'them@website.com',
-          From : "you@isp.com",
-          Subject : "This is the subject",
-          Body : "And this is the body"
-        }).then(message => alert(message));
-        console.log('submitted');
-      }
-    </script>
+    <script src="./smtp-script.js"></script>
   </body>
 </html>
